@@ -71,7 +71,7 @@ function initScene() {
     const loader = new THREE.TextureLoader();
     const bgTexture = loader.load('textures/background.jpg');
     scene.background = bgTexture;
-
+ 
     const gloader = new THREE.GLTFLoader();
 
 gloader.load(
